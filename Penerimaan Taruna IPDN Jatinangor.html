@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Institut Penerimaan Dalam Negeri | Dilla </title>
+</head>
+<style>
+  body {
+   background-color: rgb(175, 140, 207);
+  }
+</style>
+
+<body>
+
+<h1> Penerimaan Taruna Institut Pemerintahan Dalam Negeri</h1>
+
+<img src="ipdn.png.png" alt="IPDN" width="250" height="250">
+    <header>
+        <h3>Formulir Pendaftaran Mahasiswa  IPDN</h3>
+    </header>
+    <form action="proses-pendaftaran.php" method="POST">
+        <fieldset>
+        <p>
+            <label for="nama">Nama: </label>
+            <input type="text" name="nama" placeholder="Nama Lengkap" />
+     
+        </p>
+        <p>
+            <label for="alamat">Alamat: </label>
+            <textarea name="alamat"></textarea>
+        </p>
+        <p>
+            <label for="jenis_Kelamin">Jenis Kelamin: </label>
+            <label><input type="radio" name="Jenis_Kelamin" value="Pria"> Pria</label>
+            <label><input type="radio" name="Jenis_Kelamin" value="Wanita"> Wanita</label>
+        </p>
+        <p>
+            <label for="agama">Agama: </label>
+            <select name="agama">
+                <option>Islam</option>
+                <option>Kristen</option>
+                <option>Hindu</option>
+                <option>Budha</option>
+                <option>Konghucu</option>
+                <option>Lainnya</option>
+            </select>
+            <p/>
+            <label for="meeting-time">Tanggal Lahir:</label>
+            <input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2000-01-12T19:30"
+       min="2000-06-07T00:00" max="2007-01-14T00:00">
+
+        </p>
+        <p>
+            <label for="Akun_Sosial_Media">Akun Sosial Media: </label>
+            <input type="text" name="Akun_Sosial_Media" placeholder="Akun Sosial Media" />
+        </p>
+        <p>
+
+        </p>
+        <p>
+            <label for="Sekolah_Asal">Sekolah Asal: </label>
+            <input type="text" name="Sekolah_Asal" placeholder="Nama Sekolah" />
+        </p>
+        <p>
+
+        </p>
+            <div>
+            </p>
+    <label for="Email">Email:</label>
+    <input type="text" id="Email" name="Email">
+</div>
+			</p>
+
+<div>
+    <label for="pass">Password :</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+
+
+
+        
+            <input type="submit" value="Daftar" name="daftar" />
+        </p>
+        <a href="https://spcp.ipdn.ac.id/2021/">About us</a>
+        </fieldset>
+    </form>
+    </body>
+</html>
